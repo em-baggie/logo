@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Full height of viewport */
+    background-color: black;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Child elements of body become flex items so can control layout/alignment using Flexbox properties */
+.bg {
+    background-color: #4f076c;
+}
+
+.box {
+    position: relative;
+    width: 550px;
+    height: 550px;
+    background-color: #e8bafa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Default is to align flex items in the center.*/
+
+.pgram-1 {
+    position: absolute;
+    transform: rotate(-20deg) skew(-20deg);
+    width: 122px;
+    height: 60px;
+    left: 28.45%;
+    top: 30.5%;
+}
+
+.pgram-2 {
+    position: absolute;
+    transform: translate(-50%, -50%) rotate(20deg) skew(20deg);
+    width: 122px;
+    height: 60px;
+    top: 36%;
+    left: 60.405%;
+}
+
+.triangle-down {
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 120px solid #4f076c;
+}
+
+.rectangle-1 {
+    position: absolute;
+    height: 36px;
+    width: 290px;
+    top: 46.5%;
+}
+
+.rectangle-2 {
+    position: absolute;
+    height: 80px;
+    width: 36px;
+    top: 50%;
+}
+
+.small-tri1 {
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 14.5%;
+    top: 56.5%;
+    border-left: 63px solid transparent;
+    border-right: 63px solid #4f076c;
+    border-bottom: 63px solid transparent
+}
+
+.small-tri2 {
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 14.5%;
+    top: 56.5%;
+    border-left: 63px solid #4f076c;
+    border-right: 63px solid transparent;
+    border-bottom: 63px solid transparent
+}
+
+.rectangle-3 {
+    position: absolute;
+    height: 85px;
+    width: 41px;
+    top: 64%;
+    left: 35%;
+} 
+
+.rectangle-4 {
+    position: absolute;
+    height: 85px;
+    width: 41px;
+    top: 64%;
+    right: 35%;
+} 
+
+/*.circle {
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    border: 22px solid #4f076c;
+    border-radius: 50%;
+    background-color: transparent;
+  }*/
