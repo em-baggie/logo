@@ -1,3 +1,3 @@
 # ‼️A new logo‼️
 
-This is my first little project using HTML/CSS. The design was inspired by a fighting spirit 👊.
+Made this logo using pure HTML/CSS - I imagine there are much easier ways to do this, but wanted to practise the basics. The design was inspired by a fighting spirit 👊.
